@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[obj=pedestrian
+name=${2:string}
+copyright=${3:author}
+distributionWeight=${4:number}
+image[N]=${1:image}.Y.X
+image[S]=${1:image}.Y.X
+image[E]=${1:image}.Y.X
+image[W]=${1:image}.Y.X
+image[NE]=${1:image}.Y.X
+image[SE]=${1:image}.Y.X
+image[NW]=${1:image}.Y.X
+image[SW]=${1:image}.Y.X]]></content>
+    <tabTrigger>obj=pedestrian</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>full pedestrian</description>
+</snippet>

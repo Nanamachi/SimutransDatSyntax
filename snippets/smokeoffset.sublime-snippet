@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[smokeoffset=${1:X},${2:Y}]]></content>
+    <tabTrigger>smokeoffset</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>smokeoffset</description>
+</snippet>

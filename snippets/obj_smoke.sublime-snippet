@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[obj=smoke
+name=${2:string}
+copyright=${3:author}
+image[0]=${1:image}.${4:Y}.${5:X}
+image[1]=${1:image}.${6:Y}.${7:X}]]></content>
+    <tabTrigger>obj=smoke</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>full smoke</description>
+</snippet>

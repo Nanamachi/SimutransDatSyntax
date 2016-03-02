@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[backStart[N]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+backStart[S]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+backStart[E]${1:[${2:season}]}=${3:image}.${8:Y}.${9:X}
+backStart[W]${1:[${2:season}]}=${3:image}.${10:Y}.${11:X}]]></content>
+    <tabTrigger>backStart</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>backStart[…][…] bridge</description>
+</snippet>

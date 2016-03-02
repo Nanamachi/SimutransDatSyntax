@@ -1,0 +1,39 @@
+<snippet>
+    <content><![CDATA[obj=vehicle
+name=${2:string}
+copyright=${3:author}
+waytype=${4:string}
+freight=${5:string}
+payload=${6:number}
+speed=${7:number}
+power=${8:number}
+gear=${9:number}
+axle_load=${10:number}
+cost=${11:number}
+fixed_cost=${12:number}
+runningcost=${13:number}
+loading_time=${14:number}
+engine_type=${15:string}
+weight=${16:number}
+length=${17:number}
+smoke=${18:string}
+sound=${19:string}
+intro_month=${20:number}
+intro_year=${21:number}
+retire_month=${22:number}
+retire_year=${23:number}
+constraint[Next][0]=${24:string}
+freightImageType[0]=${25:string}
+emptyImage[N]=${1:image}.Y.X
+emptyImage[S]=${1:image}.Y.X
+emptyImage[E]=${1:image}.Y.X
+emptyImage[W]=${1:image}.Y.X
+emptyImage[NE]=${1:image}.Y.X
+emptyImage[SE]=${1:image}.Y.X
+emptyImage[NW]=${1:image}.Y.X
+emptyImage[SW]=${1:image}.Y.X
+$0]]></content>
+    <tabTrigger>obj=vehicle</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>full vehicle</description>
+</snippet>

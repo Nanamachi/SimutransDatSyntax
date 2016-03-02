@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[smoketile=${1:X},${2:Y}]]></content>
+    <tabTrigger>smoketile</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>smoketile</description>
+</snippet>

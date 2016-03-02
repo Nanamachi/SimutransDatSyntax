@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[freightImage${1:[${2:number}]}[N]=${3:image}.${4:Y}.${5:X}
+freightImage${1:[${2:number}]}[S]=${3:image}.${6:Y}.${7:X}
+freightImage${1:[${2:number}]}[E]=${3:image}.${8:Y}.${9:X}
+freightImage${1:[${2:number}]}[W]=${3:image}.${10:Y}.${11:X}
+freightImage${1:[${2:number}]}[NW]=${3:image}.${12:Y}.${13:X}
+freightImage${1:[${2:number}]}[SW]=${3:image}.${14:Y}.${15:X}
+freightImage${1:[${2:number}]}[NE]=${3:image}.${16:Y}.${17:X}
+freightImage${1:[${2:number}]}[SE]=${3:image}.${18:Y}.${19:X}]]>
+</content>
+    <tabTrigger>freightImage</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>freightImage[…][…] vehicle</description>
+</snippet>

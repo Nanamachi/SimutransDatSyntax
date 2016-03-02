@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[frontRamp2[N]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+frontRamp2[S]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+frontRamp2[E]${1:[${2:season}]}=${3:image}.${8:Y}.${9:X}
+frontRamp2[W]${1:[${2:season}]}=${3:image}.${10:Y}.${11:X}]]></content>
+    <tabTrigger>frontRamp2</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>frontRamp2[…][…] bridge</description>
+</snippet>

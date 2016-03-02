@@ -1,0 +1,51 @@
+<snippet>
+    <content><![CDATA[obj=way-object
+name=${2:string}
+copyright=${3:author}
+waytype=${4:string}
+topspeed=${5:number}
+cost=${6:number}
+maintenance=${7:number}
+own_waytype=${8:number}
+intro_month=${9:number}
+intro_year=${10:number}
+retire_month=${11:number}
+retire_year=${12:number}
+cursor=${1:image}.Y.X
+icon=> ${1:image}.Y.X
+backImage[-]=${1:image}.Y.X
+backImage[N]=${1:image}.Y.X
+backImage[S]=${1:image}.Y.X
+backImage[E]=${1:image}.Y.X
+backImage[W]=${1:image}.Y.X
+backImage[EW]=${1:image}.Y.X
+backImage[SW]=${1:image}.Y.X
+backImage[SE]=${1:image}.Y.X
+backImage[SEW]=${1:image}.Y.X
+backImage[NE]=${1:image}.Y.X
+backImage[NW]=${1:image}.Y.X
+backImage[NS]=${1:image}.Y.X
+backImage[NEW]=${1:image}.Y.X
+backImage[NSW]=${1:image}.Y.X
+backImage[NSE]=${1:image}.Y.X
+backImage[NSEW]=${1:image}.Y.X
+
+backImageUP[3]=${1:image}.Y.X
+backImageUP[6]=${1:image}.Y.X
+backImageUP[9]=${1:image}.Y.X
+backImageUP[12]=${1:image}.Y.X
+
+backImageUP2[3]=${1:image}.Y.X
+backImageUP2[6]=${1:image}.Y.X
+backImageUP2[9]=${1:image}.Y.X
+backImageUP2[12]=${1:image}.Y.X
+
+backDiagonal[NE]=${1:image}.Y.X
+backDiagonal[NW]=${1:image}.Y.X
+backDiagonal[SE]=${1:image}.Y.X
+backDiagonal[SW]=${1:image}.Y.X
+$0]]></content>
+    <tabTrigger>obj=way-object</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>full way-object</description>
+</snippet>

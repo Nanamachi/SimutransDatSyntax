@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[frontPillar[S]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+frontPillar[W]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}]]></content>
+    <tabTrigger>frontPillar</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>frontPillar[…][…] bridge</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[frontDiagonal[NE]=${1:image}.${2:Y}.${3:X}
+frontDiagonal[NW]=${1:image}.${4:Y}.${5:X}
+frontDiagonal[SE]=${1:image}.${6:Y}.${7:X}
+frontDiagonal[SW]=${1:image}.${8:Y}.${9:X}]]></content>
+    <tabTrigger>frontDiagonal</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>frontDiagonal[…] way/way-object</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[inputFactor[${1:0}]=${2:number}]]></content>
+    <tabTrigger>inputFactor</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>inputFactor[…]</description>
+</snippet>

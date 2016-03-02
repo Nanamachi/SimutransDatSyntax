@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[hasSnow${1:[${2:0}]}=${3:1}]]></content>
+    <tabTrigger>hasSnow</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>hasSnow[…]</description>
+</snippet>

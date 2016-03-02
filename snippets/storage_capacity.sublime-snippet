@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[storage_capacity${1:[${2:0}]}=${3:freightName}]]></content>
+    <tabTrigger>storage_capacity</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>storage_capacity[…]</description>
+</snippet>

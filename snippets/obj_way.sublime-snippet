@@ -1,0 +1,66 @@
+<snippet>
+    <content><![CDATA[obj=way
+name=${2:string}
+copyright=${3:author}
+waytype=${4:string}
+system_type=${5:number}
+topspeed=${6:number}
+cost=${7:number}
+maintenance=${8:number}
+max_weight=${9:number}
+axle_load=${10:number}
+draw_as_ding=${11:1}
+intro_month=${12:number}
+intro_year=${13:number}
+retire_month=${14:number}
+retire_year=${15:number}
+cursor=${1:image}.Y.X
+icon=> ${1:image}.Y.X
+image[-]=${1:image}.Y.X
+image[N]=${1:image}.Y.X
+image[S]=${1:image}.Y.X
+image[E]=${1:image}.Y.X
+image[W]=${1:image}.Y.X
+image[EW]=${1:image}.Y.X
+image[SW]=${1:image}.Y.X
+image[SE]=${1:image}.Y.X
+image[SEW]=${1:image}.Y.X
+image[NW]=${1:image}.Y.X
+image[NE]=${1:image}.Y.X
+image[NS]=${1:image}.Y.X
+image[NEW]=${1:image}.Y.X
+image[NSW]=${1:image}.Y.X
+image[NSE]=${1:image}.Y.X
+image[NSEW]=${1:image}.Y.X
+
+image[SEW1]=${1:image}.Y.X
+image[NEW1]=${1:image}.Y.X
+image[NSW1]=${1:image}.Y.X
+image[NSE1]=${1:image}.Y.X
+image[NSEW1]=${1:image}.Y.X
+
+image[SEW2]=${1:image}.Y.X
+image[NEW2]=${1:image}.Y.X
+image[NSW2]=${1:image}.Y.X
+image[NSE2]=${1:image}.Y.X
+image[NSEW2]=${1:image}.Y.X
+
+imageUP[3]=${1:image}.Y.X
+imageUP[6]=${1:image}.Y.X
+imageUP[9]=${1:image}.Y.X
+imageUP[12]=${1:image}.Y.X
+
+imageUP2[3]=${1:image}.Y.X
+imageUP2[6]=${1:image}.Y.X
+imageUP2[9]=${1:image}.Y.X
+imageUP2[12]=${1:image}.Y.X
+
+diagonal[NE]=${1:image}.Y.X
+diagonal[NW]=${1:image}.Y.X
+diagonal[SE]=${1:image}.Y.X
+diagonal[SW]=${1:image}.Y.X
+$0]]></content>
+    <tabTrigger>obj=way</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>full way</description>
+</snippet>

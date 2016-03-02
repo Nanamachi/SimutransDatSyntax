@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[inputCapacity[${1:0}]=${2:number}]]></content>
+    <tabTrigger>inputCapacity</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>inputCapacity[…]</description>
+</snippet>

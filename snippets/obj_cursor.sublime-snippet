@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[obj=cursor
+name=${2:string}
+copyright=${3:author}
+image[0]=${1:image}.${4:Y}.${5:X}]]></content>
+    <tabTrigger>obj=cursor</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>full cursor</description>
+</snippet>

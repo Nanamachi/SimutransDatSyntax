@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[type=res
+name=${2:string}
+copyright=${3:author}
+chance=${4:number}
+noinfo=${5:1}
+noconstruction=${6:1}
+needs_ground=${7:1}
+intro_month=${8:number}
+intro_year=${9:number}
+retire_month=${10:number}
+retire_year=${11:number}
+clusters=${12:numberarray}
+climates=${13:stringarray}
+animation_time=${14:number}
+dims=1,1,${15:views}
+$0]]></content>
+    <tabTrigger>type=res</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>full residential</description>
+</snippet>

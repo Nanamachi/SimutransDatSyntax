@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[backDiagonal[NE]=${1:image}.${2:Y}.${3:X}
+backDiagonal[NW]=${1:image}.${4:Y}.${5:X}
+backDiagonal[SE]=${1:image}.${6:Y}.${7:X}
+backDiagonal[SW]=${1:image}.${8:Y}.${9:X}]]></content>
+    <tabTrigger>backDiagonal</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>backDiagonal[…] way-object</description>
+</snippet>

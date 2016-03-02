@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[type=extension
+name=${2:string}
+copyright=${3:author}
+waytype=${4:string}
+capacity=${5:number}
+maintenance=${6:number}
+cost=${7:number}
+enables_pax=${8:1}
+enables_post=${9:1}
+enables_ware=${10:1}
+allow_underground=${11:2}
+noinfo=${12:1}
+noconstruction=${13:1}
+needs_ground=${14:1}
+intro_month=${15:number}
+intro_year=${16:number}
+retire_month=${17:number}
+retire_year=${18:number}
+clusters=${19:numberarray}
+climates=${20:stringarray}
+animation_time=${21:number}
+dims=1,1,${22:views}
+$0]]></content>
+    <tabTrigger>type=extension</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>full extension</description>
+</snippet>

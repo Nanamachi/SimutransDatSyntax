@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[production_per_field${1:[${2:0}]}=${3:freightName}]]></content>
+    <tabTrigger>production_per_field</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>production_per_field[…]</description>
+</snippet>

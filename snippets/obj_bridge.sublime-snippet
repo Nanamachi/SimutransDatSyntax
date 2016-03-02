@@ -1,0 +1,48 @@
+<snippet>
+    <content><![CDATA[obj=bridge
+name=${2:string}
+copyright=${3:author}
+waytype=${4:string}
+topspeed=${5:number}
+cost=${6:number}
+maintenance=${7:number}
+max_length=${8:number}
+max_height=${9:number}
+axle_load=${10:number}
+pillar_distance=${11:number}
+pillar_asymmetric=${12:1}
+intro_month=${13:number}
+intro_year=${14:number}
+retire_month=${15:number}
+retire_year=${16:number}
+cursor=${1:image}.Y.X
+icon=> ${1:image}.Y.X
+backImage[NS]=${1:image}.Y.X
+backImage[EW]=${1:image}.Y.X
+backStart[N]=${1:image}.Y.X
+backStart[S]=${1:image}.Y.X
+backStart[E]=${1:image}.Y.X
+backStart[W]=${1:image}.Y.X
+backRamp[N]=${1:image}.Y.X
+backRamp[S]=${1:image}.Y.X
+backRamp[E]=${1:image}.Y.X
+backRamp[W]=${1:image}.Y.X
+backPillar[S]=${1:image}.Y.X
+backPillar[W]=${1:image}.Y.X
+
+backImage2[NS]=${1:image}.Y.X
+backImage2[EW]=${1:image}.Y.X
+backStart2[N]=${1:image}.Y.X
+backStart2[S]=${1:image}.Y.X
+backStart2[E]=${1:image}.Y.X
+backStart2[W]=${1:image}.Y.X
+backRamp2[N]=${1:image}.Y.X
+backRamp2[S]=${1:image}.Y.X
+backRamp2[E]=${1:image}.Y.X
+backRamp2[W]=${1:image}.Y.X
+backPillar2[S]=${1:image}.Y.X
+backPillar2[W]=${1:image}.Y.X]]></content>
+    <tabTrigger>obj=bridge</tabTrigger>
+    <scope>text.simutrans_dat</scope>
+    <description>full bridge</description>
+</snippet>
