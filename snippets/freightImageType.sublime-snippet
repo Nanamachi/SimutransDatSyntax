@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[freightImageType[${1:0}]=${2:freightName}]]></content>
-    <tabTrigger>freightImageType</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>freightImageType[…]</description>
-</snippet>

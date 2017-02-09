@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[spawn_weight${1:[${2:0}]}=${3:freightName}]]></content>
-    <tabTrigger>spawn_weight</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>spawn_weight[…]</description>
-</snippet>

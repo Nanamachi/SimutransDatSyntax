@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[inputGood[${1:0}]=${2:good}]]></content>
-    <tabTrigger>inputGood</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>inputGood[…]</description>
-</snippet>

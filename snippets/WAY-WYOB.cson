@@ -1,0 +1,194 @@
+'.text.plain':
+    'WAY FULL':
+        'prefix': 'obj=way'
+        'body': """
+            obj=way
+            name=${2:string}
+            copyright=${3:author}
+            waytype=${4:string}
+            system_type=${5:number}
+            topspeed=${6:number}
+            cost=${7:number}
+            maintenance=${8:number}
+            max_weight=${9:number}
+            axle_load=${10:number}
+            draw_as_ding=${11:1}
+            intro_month=${12:number}
+            intro_year=${13:number}
+            retire_month=${14:number}
+            retire_year=${15:number}
+            cursor=${1:image}.Y.X
+            icon=> ${1:image}.Y.X
+            image[-]=${1:image}.Y.X
+            image[N]=${1:image}.Y.X
+            image[S]=${1:image}.Y.X
+            image[E]=${1:image}.Y.X
+            image[W]=${1:image}.Y.X
+            image[EW]=${1:image}.Y.X
+            image[SW]=${1:image}.Y.X
+            image[SE]=${1:image}.Y.X
+            image[SEW]=${1:image}.Y.X
+            image[NW]=${1:image}.Y.X
+            image[NE]=${1:image}.Y.X
+            image[NS]=${1:image}.Y.X
+            image[NEW]=${1:image}.Y.X
+            image[NSW]=${1:image}.Y.X
+            image[NSE]=${1:image}.Y.X
+            image[NSEW]=${1:image}.Y.X
+
+            image[SEW1]=${1:image}.Y.X
+            image[NEW1]=${1:image}.Y.X
+            image[NSW1]=${1:image}.Y.X
+            image[NSE1]=${1:image}.Y.X
+            image[NSEW1]=${1:image}.Y.X
+
+            image[SEW2]=${1:image}.Y.X
+            image[NEW2]=${1:image}.Y.X
+            image[NSW2]=${1:image}.Y.X
+            image[NSE2]=${1:image}.Y.X
+            image[NSEW2]=${1:image}.Y.X
+
+            imageUP[3]=${1:image}.Y.X
+            imageUP[6]=${1:image}.Y.X
+            imageUP[9]=${1:image}.Y.X
+            imageUP[12]=${1:image}.Y.X
+
+            imageUP2[3]=${1:image}.Y.X
+            imageUP2[6]=${1:image}.Y.X
+            imageUP2[9]=${1:image}.Y.X
+            imageUP2[12]=${1:image}.Y.X
+
+            diagonal[NE]=${1:image}.Y.X
+            diagonal[NW]=${1:image}.Y.X
+            diagonal[SE]=${1:image}.Y.X
+            diagonal[SW]=${1:image}.Y.X
+            $0
+        """
+    'WYOB FULL':
+        'prefix': 'obj=way-object'
+        'body': """
+            obj=way-object
+            name=${2:string}
+            copyright=${3:author}
+            waytype=${4:string}
+            topspeed=${5:number}
+            cost=${6:number}
+            maintenance=${7:number}
+            own_waytype=${8:number}
+            intro_month=${9:number}
+            intro_year=${10:number}
+            retire_month=${11:number}
+            retire_year=${12:number}
+            cursor=${1:image}.Y.X
+            icon=> ${1:image}.Y.X
+            backImage[-]=${1:image}.Y.X
+            backImage[N]=${1:image}.Y.X
+            backImage[S]=${1:image}.Y.X
+            backImage[E]=${1:image}.Y.X
+            backImage[W]=${1:image}.Y.X
+            backImage[EW]=${1:image}.Y.X
+            backImage[SW]=${1:image}.Y.X
+            backImage[SE]=${1:image}.Y.X
+            backImage[SEW]=${1:image}.Y.X
+            backImage[NE]=${1:image}.Y.X
+            backImage[NW]=${1:image}.Y.X
+            backImage[NS]=${1:image}.Y.X
+            backImage[NEW]=${1:image}.Y.X
+            backImage[NSW]=${1:image}.Y.X
+            backImage[NSE]=${1:image}.Y.X
+            backImage[NSEW]=${1:image}.Y.X
+
+            backImageUP[3]=${1:image}.Y.X
+            backImageUP[6]=${1:image}.Y.X
+            backImageUP[9]=${1:image}.Y.X
+            backImageUP[12]=${1:image}.Y.X
+
+            backImageUP2[3]=${1:image}.Y.X
+            backImageUP2[6]=${1:image}.Y.X
+            backImageUP2[9]=${1:image}.Y.X
+            backImageUP2[12]=${1:image}.Y.X
+
+            backDiagonal[NE]=${1:image}.Y.X
+            backDiagonal[NW]=${1:image}.Y.X
+            backDiagonal[SE]=${1:image}.Y.X
+            backDiagonal[SW]=${1:image}.Y.X
+            $0
+        """
+    #
+    # diagonal image
+    'WAY:IMG:backDiagonal':
+        'prefix': 'diagonal'
+        'body': """
+            diagonal[NE]=${1:image}.${2:Y}.${3:X}
+            diagonal[NW]=${1:image}.${4:Y}.${5:X}
+            diagonal[SE]=${1:image}.${6:Y}.${7:X}
+            diagonal[SW]=${1:image}.${8:Y}.${9:X}
+        """
+    'WYOB:IMG:backDiagonal':
+        'prefix': 'backDiagonal'
+        'body': """
+            backDiagonal[NE]=${1:image}.${2:Y}.${3:X}
+            backDiagonal[NW]=${1:image}.${4:Y}.${5:X}
+            backDiagonal[SE]=${1:image}.${6:Y}.${7:X}
+            backDiagonal[SW]=${1:image}.${8:Y}.${9:X}
+        """
+    'WAY/WYOB:IMG:frontDiagonal':
+        'prefix': 'frontDiagonal'
+        'body': """
+            frontDiagonal[NE]=${1:image}.${2:Y}.${3:X}
+            frontDiagonal[NW]=${1:image}.${4:Y}.${5:X}
+            frontDiagonal[SE]=${1:image}.${6:Y}.${7:X}
+            frontDiagonal[SW]=${1:image}.${8:Y}.${9:X}
+        """
+    #
+    # half slope image
+    'WAY:IMG:backUp':
+        'prefix': 'imageUp'
+        'body': """
+            imageUp[3]=${1:image}.${2:Y}.${3:X}
+            imageUp[6]=${1:image}.${4:Y}.${5:X}
+            imageUp[9]=${1:image}.${6:Y}.${7:X}
+            imageUp[12]=${1:image}.${8:Y}.${9:X}
+        """
+    'WYOB:IMG:backUp':
+        'prefix': 'backimageUp'
+        'body': """
+            backimageUp[3]=${1:image}.${2:Y}.${3:X}
+            backimageUp[6]=${1:image}.${4:Y}.${5:X}
+            backimageUp[9]=${1:image}.${6:Y}.${7:X}
+            backimageUp[12]=${1:image}.${8:Y}.${9:X}
+        """
+    'WAY/WYOB:IMG:frontUp':
+        'prefix': 'frontimageUp'
+        'body': """
+            frontimageUp[3]=${1:image}.${2:Y}.${3:X}
+            frontimageUp[6]=${1:image}.${4:Y}.${5:X}
+            frontimageUp[9]=${1:image}.${6:Y}.${7:X}
+            frontimageUp[12]=${1:image}.${8:Y}.${9:X}
+        """
+    #
+    # double slope image
+    'WAY:IMG:doubleSlopeBackUp':
+        'prefix': 'imageUp2'
+        'body': """
+            imageUp2[3]=${1:image}.${2:Y}.${3:X}
+            imageUp2[6]=${1:image}.${4:Y}.${5:X}
+            imageUp2[9]=${1:image}.${6:Y}.${7:X}
+            imageUp2[12]=${1:image}.${8:Y}.${9:X}
+        """
+    'WYOB:IMG:doubleSlopeBackUp':
+        'prefix': 'backimageUp2'
+        'body': """
+            backimageUp2[3]=${1:image}.${2:Y}.${3:X}
+            backimageUp2[6]=${1:image}.${4:Y}.${5:X}
+            backimageUp2[9]=${1:image}.${6:Y}.${7:X}
+            backimageUp2[12]=${1:image}.${8:Y}.${9:X}
+        """
+    'WAY/WYOB:IMG:doubleSlopeFrontUp':
+        'prefix': 'frontimageUp2'
+        'body': """
+            frontimageUp2[3]=${1:image}.${2:Y}.${3:X}
+            frontimageUp2[6]=${1:image}.${4:Y}.${5:X}
+            frontimageUp2[9]=${1:image}.${6:Y}.${7:X}
+            frontimageUp2[12]=${1:image}.${8:Y}.${9:X}
+        """

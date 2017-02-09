@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[frontimageUp[3]=${1:image}.${2:Y}.${3:X}
-frontimageUp[6]=${1:image}.${4:Y}.${5:X}
-frontimageUp[9]=${1:image}.${6:Y}.${7:X}
-frontimageUp[12]=${1:image}.${8:Y}.${9:X}]]></content>
-    <tabTrigger>frontimageUp</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>frontimageUp[…] way/way-object</description>
-</snippet>

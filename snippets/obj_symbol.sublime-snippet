@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[obj=symbol
-name=${2:string}
-copyright=${3:author}
-image[0]=${1:image}.${4:Y}.${5:X}]]></content>
-    <tabTrigger>obj=symbol</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>full symbol</description>
-</snippet>

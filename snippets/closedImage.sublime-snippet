@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[closedImage[NS]=${1:image}.${2:Y}.${3:X}
-closedImage[EW]=${1:image}.${4:Y}.${5:X}]]></content>
-    <tabTrigger>closedImage</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>closedImage[…] crossing</description>
-</snippet>

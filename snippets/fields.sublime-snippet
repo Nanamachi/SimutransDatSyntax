@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[fields${1:[${2:0}]}=${3:freightName}]]></content>
-    <tabTrigger>fields</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>fields[…]</description>
-</snippet>

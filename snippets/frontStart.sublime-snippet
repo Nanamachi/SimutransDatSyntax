@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[frontStart[N]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
-frontStart[S]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
-frontStart[E]${1:[${2:season}]}=${3:image}.${8:Y}.${9:X}
-frontStart[W]${1:[${2:season}]}=${3:image}.${10:Y}.${11:X}]]></content>
-    <tabTrigger>frontStart</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>frontStart[…][…] bridge</description>
-</snippet>

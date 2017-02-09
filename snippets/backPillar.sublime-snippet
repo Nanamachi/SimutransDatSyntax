@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[backPillar[S]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
-backPillar[W]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}]]></content>
-    <tabTrigger>backPillar</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>backPillar[…][…] bridge</description>
-</snippet>

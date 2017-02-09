@@ -1,0 +1,155 @@
+'.text.plain':
+    'BRDG FULL':
+        'prefix': 'obj=bridge'
+        'body': """
+            obj=bridge
+            name=${2:string}
+            copyright=${3:author}
+            waytype=${4:string}
+            topspeed=${5:number}
+            cost=${6:number}
+            maintenance=${7:number}
+            max_length=${8:number}
+            max_height=${9:number}
+            axle_load=${10:number}
+            pillar_distance=${11:number}
+            pillar_asymmetric=${12:1}
+            intro_month=${13:number}
+            intro_year=${14:number}
+            retire_month=${15:number}
+            retire_year=${16:number}
+            cursor=${1:image}.Y.X
+            icon=> ${1:image}.Y.X
+
+            # halfSlope-back
+            backImage[NS]=${1:image}.Y.X
+            backImage[EW]=${1:image}.Y.X
+            backStart[N]=${1:image}.Y.X
+            backStart[S]=${1:image}.Y.X
+            backStart[E]=${1:image}.Y.X
+            backStart[W]=${1:image}.Y.X
+            backRamp[N]=${1:image}.Y.X
+            backRamp[S]=${1:image}.Y.X
+            backRamp[E]=${1:image}.Y.X
+            backRamp[W]=${1:image}.Y.X
+            backPillar[S]=${1:image}.Y.X
+            backPillar[W]=${1:image}.Y.X
+
+            # doubleSlope-back
+            backImage2[NS]=${1:image}.Y.X
+            backImage2[EW]=${1:image}.Y.X
+            backStart2[N]=${1:image}.Y.X
+            backStart2[S]=${1:image}.Y.X
+            backStart2[E]=${1:image}.Y.X
+            backStart2[W]=${1:image}.Y.X
+            backRamp2[N]=${1:image}.Y.X
+            backRamp2[S]=${1:image}.Y.X
+            backRamp2[E]=${1:image}.Y.X
+            backRamp2[W]=${1:image}.Y.X
+            backPillar2[S]=${1:image}.Y.X
+            backPillar2[W]=${1:image}.Y.X
+        """
+    #
+    # back images
+    'BRDG:IMG:doubleSlopeBack':
+        'prefix': 'backImage2'
+        'body': """
+            backImage2[S]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            backImage2[W]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+        """
+    'BRDG:IMG:backPillar':
+        'prefix': 'backPillar'
+        'body': """
+            backPillar[S]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            backPillar[W]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+        """
+    'BRDG:IMG:doubleSlopeBackPillar':
+        'prefix': 'backPillar2'
+        'body': """
+            backPillar2[S]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            backPillar2[W]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+        """
+    'BRDG:IMG:backRamp':
+        'prefix': 'backRamp'
+        'body': """
+            backRamp[N]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            backRamp[S]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+            backRamp[E]${1:[${2:season}]}=${3:image}.${8:Y}.${9:X}
+            backRamp[W]${1:[${2:season}]}=${3:image}.${10:Y}.${11:X}
+        """
+    'BRDG:IMG:doubleSlopeBackRamp':
+        'prefix': 'backRamp2'
+        'body': """
+            backRamp2[N]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            backRamp2[S]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+            backRamp2[E]${1:[${2:season}]}=${3:image}.${8:Y}.${9:X}
+            backRamp2[W]${1:[${2:season}]}=${3:image}.${10:Y}.${11:X}
+        """
+    'BRDG:IMG:backStart':
+        'prefix': 'backStart'
+        'body': """
+            backStart[N]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            backStart[S]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+            backStart[E]${1:[${2:season}]}=${3:image}.${8:Y}.${9:X}
+            backStart[W]${1:[${2:season}]}=${3:image}.${10:Y}.${11:X}
+        """
+    'BRDG:IMG:doubleSlopeBackStart':
+        'prefix': 'backStart2'
+        'body': """
+            backStart2[N]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            backStart2[S]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+            backStart2[E]${1:[${2:season}]}=${3:image}.${8:Y}.${9:X}
+            backStart2[W]${1:[${2:season}]}=${3:image}.${10:Y}.${11:X}
+        """
+    'BRDG:IMG:doubleSlopeFront':
+        'prefix': 'frontImage2'
+        'body': """
+            frontImage2[S]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            frontImage2[W]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+        """
+    #
+    # front images
+    'BRDG:IMG:frontPillar':
+        'prefix': 'frontPillar'
+        'body': """
+            frontPillar[S]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            frontPillar[W]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+        """
+    'BRDG:IMG:doubleSlopeFrontPillar':
+        'prefix': 'frontPillar2'
+        'body': """
+            frontPillar2[S]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            frontPillar2[W]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+        """
+    'BRDG:IMG:frontRamp':
+        'prefix': 'frontRamp'
+        'body': """
+            frontRamp[N]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            frontRamp[S]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+            frontRamp[E]${1:[${2:season}]}=${3:image}.${8:Y}.${9:X}
+            frontRamp[W]${1:[${2:season}]}=${3:image}.${10:Y}.${11:X}
+        """
+    'BRDG:IMG:doubleSlopeFrontRamp':
+        'prefix': 'frontRamp2'
+        'body': """
+            frontRamp2[N]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            frontRamp2[S]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+            frontRamp2[E]${1:[${2:season}]}=${3:image}.${8:Y}.${9:X}
+            frontRamp2[W]${1:[${2:season}]}=${3:image}.${10:Y}.${11:X}
+        """
+    'BRDG:IMG:frontStart':
+        'prefix': 'frontStart'
+        'body': """
+            frontStart[N]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            frontStart[S]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+            frontStart[E]${1:[${2:season}]}=${3:image}.${8:Y}.${9:X}
+            frontStart[W]${1:[${2:season}]}=${3:image}.${10:Y}.${11:X}
+        """
+    'BRDG:IMG:doubleSlopeFrontStart':
+        'prefix': 'frontStart2'
+        'body': """
+            frontStart2[N]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
+            frontStart2[S]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}
+            frontStart2[E]${1:[${2:season}]}=${3:image}.${8:Y}.${9:X}
+            frontStart2[W]${1:[${2:season}]}=${3:image}.${10:Y}.${11:X}
+        """

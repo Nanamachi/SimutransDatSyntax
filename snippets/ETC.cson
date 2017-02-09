@@ -1,0 +1,308 @@
+'.text.plain':
+    #
+    #crossing
+    'CRSS FULL':
+        'prefix': 'obj=crossing'
+        'body': """
+            obj=crossing
+            name=${2:string}
+            copyright=${3:author}
+            waytype[0]=${4:string}
+            waytype[1]=${5:string}
+            speed[0]=${6:number}
+            speed[1]=${7:number}
+            animation_time_open=${8:number}
+            animation_time_closed=${9:number}
+            sound=${10:string}
+            intro_month=${11:number}
+            intro_year=${12:number}
+            retire_month=${13:number}
+            retire_year=${14:number}
+            openimage[NS]=${1:image}.Y.X
+            front_openimage[NS]=${1:image}.Y.X
+            openimage[EW]=${1:image}.Y.X
+            front_openimage[EW]=${1:image}.Y.X
+            closeimage[NS]=${1:image}.Y.X
+            front_closeimage[NS]=${1:image}.Y.X
+            closeimage[EW]=${1:image}.Y.X
+            front_closeimage[EW]=${1:image}.Y.X
+        """
+    'CRSS:backClosed':
+        'prefix': 'closedImage'
+        'body': """
+            closedImage[NS]=${1:image}.${2:Y}.${3:X}
+            closedImage[EW]=${1:image}.${4:Y}.${5:X}
+        """
+    'CRSS:IMG:backOpen':
+        'prefix': 'openImage'
+        'body': """
+            openImage[NS]=${1:image}.${2:Y}.${3:X}
+            openImage[EW]=${1:image}.${4:Y}.${5:X}
+        """
+    'CRSS:IMG:frontClosed':
+        'prefix': 'front_closedImage'
+        'body': """
+            front_closedImage[NS]=${1:image}.${2:Y}.${3:X}
+            front_closedImage[EW]=${1:image}.${4:Y}.${5:X}
+        """
+    'CRSS:IMG:frontOpen':
+        'prefix': 'front_openImage'
+        'body': """
+            front_openImage[NS]=${1:image}.${2:Y}.${3:X}
+            front_openImage[EW]=${1:image}.${4:Y}.${5:X}
+        """
+    #
+    # citycar
+    'CCAR FULL':
+        'prefix': 'obj=citycar'
+        'body': """
+            obj=citycar
+            name=${2:string}
+            copyright=${3:author}
+            speed=${4:number}
+            distributionWeight=${5:number}
+            intro_month=${6:number}
+            intro_year=${7:number}
+            retire_month=${8:number}
+            retire_year=${9:number}
+            image[N]=${1:image}.Y.X
+            image[S]=${1:image}.Y.X
+            image[E]=${1:image}.Y.X
+            image[W]=${1:image}.Y.X
+            image[NE]=${1:image}.Y.X
+            image[SE]=${1:image}.Y.X
+            image[NW]=${1:image}.Y.X
+            image[SW]=${1:image}.Y.X
+        """
+    #
+    #cursor
+    'CURS FULL':
+        'prefix': 'obj=cursor'
+        'body': """
+            obj=cursor
+            name=${2:string}
+            copyright=${3:author}
+            image[0]=${1:image}.${4:Y}.${5:X}
+        """
+    'CURS:cursor':
+        'prefix': 'cursor'
+        'body': """
+            cursor=${1:image}.${2:Y}.${3:X}
+        """
+    'CURS:icon':
+        'prefix': 'icon'
+        'body': """
+            icon=> ${1:image}.${2:Y}.${3:X}
+        """
+    'GOOD FULL':
+        'prefix': 'obj=good'
+        'body': """
+            obj=good
+            name=${2:string}
+            metric=${3:tonnen}
+            catg=${4:number}
+            value=${5:number}
+            speed_bonus=${6:number}
+            weight_per_unit=${7:number}
+            mapColor=${8:number}
+        """
+    'GOBJ FULL':
+        'prefix': 'obj=ground_obj'
+        'body': """
+            obj=ground_obj
+            name=${2:string}
+            copyright=${3:author}
+            waytype=${4:air}
+            cost=${5:number}
+            speed=${6:number}
+            trees_on_top=${7:1}
+            climates=${8:stringarray}
+            seasons=${9:number}
+            $0
+        """
+    'MENU FULL':
+        'prefix': 'obj=menu'
+        'body': """
+            obj=menu
+            name=${2:string}
+            copyright=${3:author}
+            image[0]=> ${1:image}.${4:Y}.${5:X}
+            $0
+        """
+    'PASS FULL':
+        'prefix': 'obj=pedestrian'
+        'body': """
+            obj=pedestrian
+            name=${2:string}
+            copyright=${3:author}
+            distributionWeight=${4:number}
+            image[N]=${1:image}.Y.X
+            image[S]=${1:image}.Y.X
+            image[E]=${1:image}.Y.X
+            image[W]=${1:image}.Y.X
+            image[NE]=${1:image}.Y.X
+            image[SE]=${1:image}.Y.X
+            image[NW]=${1:image}.Y.X
+            image[SW]=${1:image}.Y.X
+        """
+    'SIGN FULL':
+        'prefix': 'obj=roadsign'
+        'body': """
+            obj=roadsign
+            name=${2:string}
+            copyright=${3:author}
+            waytype=${4:string}
+            cost=${5:number}
+            min_speed=${6:number}
+            single_way=${7:1}
+            free_route=${8:1}
+            is_private=${9:1}
+            is_signal=${10:1}
+            is_presignal=${11:1}
+            is_longblocksignal=${12:1}
+            end_of_choose=${13:1}
+            no_foreground=${14:1}
+            offset_left=${15:number}
+            intro_month=${16:number}
+            intro_year=${17:number}
+            retire_month=${18:number}
+            retire_year=${19:number}
+            cursor=${1:image}.Y.X
+            icon=> ${1:image}.Y.X
+            image[0]=${1:image}.Y.X
+            image[1]=${1:image}.Y.X
+            image[2]=${1:image}.Y.X
+            image[3]=${1:image}.Y.X
+        """
+    'SMOK FULL':
+        'prefix': 'obj=smoke'
+        'body': """
+            obj=smoke
+            name=${2:string}
+            copyright=${3:author}
+            image[0]=${1:image}.${4:Y}.${5:X}
+            image[1]=${1:image}.${6:Y}.${7:X}
+        """
+    'SOUN FULL':
+        'prefix': 'obj=sound'
+        'body': """
+            obj=sound
+            name=${2:string}
+            copyright=${3:author}
+            sound_name=${4:string}
+            sound_nr=${5:number}
+        """
+    'SYMB FULL':
+        'prefix': 'obj=symbol'
+        'body': """
+            obj=symbol
+            name=${2:string}
+            copyright=${3:author}
+            image[0]=${1:image}.${4:Y}.${5:X}
+        """
+    'TREE FULL':
+        'prefix': 'obj=tree'
+        'body': """
+            obj=tree
+            name=${2:string}
+            copyright=${3:author}
+            distributionWeight=${4:number}
+            climates=${5:stringarray}
+            seasons=${6:number}
+            image[0][0]=${1:image}.Y.X
+        """
+    'TUNL FULL':
+        'prefix': 'obj=tunnel'
+        'body': """
+            obj=tunnel
+            name=${2:string}
+            copyright=${3:author}
+            waytype=${4:string}
+            topspeed=${5:number}
+            cost=${6:number}
+            maintenance=${7:number}
+            axle_load=${8:number}
+            way=${9:string}
+            intro_month=${10:number}
+            intro_year=${11:number}
+            retire_month=${12:number}
+            retire_year=${13:number}
+            cursor=${1:image}.Y.X
+            icon=> ${1:image}.Y.X
+            backimage[N]=${1:image}.Y.X
+            backimage[S]=${1:image}.Y.X
+            backimage[E]=${1:image}.Y.X
+            backimage[W]=${1:image}.Y.X
+        """
+    'VHCL FULL':
+        'prefix': 'obj=vehicle'
+        'body': """
+            obj=vehicle
+            name=${2:string}
+            copyright=${3:author}
+            waytype=${4:string}
+            freight=${5:string}
+            payload=${6:number}
+            speed=${7:number}
+            power=${8:number}
+            gear=${9:number}
+            axle_load=${10:number}
+            cost=${11:number}
+            fixed_cost=${12:number}
+            runningcost=${13:number}
+            loading_time=${14:number}
+            engine_type=${15:string}
+            weight=${16:number}
+            length=${17:number}
+            smoke=${18:string}
+            sound=${19:string}
+            intro_month=${20:number}
+            intro_year=${21:number}
+            retire_month=${22:number}
+            retire_year=${23:number}
+            constraint[Next][0]=${24:string}
+            freightImageType[0]=${25:string}
+            emptyImage[N]=${1:image}.Y.X
+            emptyImage[S]=${1:image}.Y.X
+            emptyImage[E]=${1:image}.Y.X
+            emptyImage[W]=${1:image}.Y.X
+            emptyImage[NE]=${1:image}.Y.X
+            emptyImage[SE]=${1:image}.Y.X
+            emptyImage[NW]=${1:image}.Y.X
+            emptyImage[SW]=${1:image}.Y.X
+            $0
+        """
+    'VHCL:constraint[Next|Prev]':
+        'prefix': 'constraint'
+        'body': """
+            constraint[${1:Next}][${2:0}]=${3:vehicleInternalName}
+        """
+    'VHCL:emptyImage':
+        'prefix': 'emptyImage'
+        'body': """
+            emptyImage[N]=${1:image}.${2:Y}.${3:X}
+            emptyImage[S]=${1:image}.${4:Y}.${5:X}
+            emptyImage[E]=${1:image}.${6:Y}.${7:X}
+            emptyImage[W]=${1:image}.${8:Y}.${9:X}
+            emptyImage[NW]=${1:image}.${10:Y}.${11:X}
+            emptyImage[SW]=${1:image}.${12:Y}.${13:X}
+            emptyImage[NE]=${1:image}.${14:Y}.${15:X}
+            emptyImage[SE]=${1:image}.${16:Y}.${17:X}
+        """
+    'VHCL:freightImage':
+        'prefix': 'freightImage'
+        'body': """
+            freightImage${1:[${2:number}]}[N]=${3:image}.${4:Y}.${5:X}
+            freightImage${1:[${2:number}]}[S]=${3:image}.${6:Y}.${7:X}
+            freightImage${1:[${2:number}]}[E]=${3:image}.${8:Y}.${9:X}
+            freightImage${1:[${2:number}]}[W]=${3:image}.${10:Y}.${11:X}
+            freightImage${1:[${2:number}]}[NW]=${3:image}.${12:Y}.${13:X}
+            freightImage${1:[${2:number}]}[SW]=${3:image}.${14:Y}.${15:X}
+            freightImage${1:[${2:number}]}[NE]=${3:image}.${16:Y}.${17:X}
+            freightImage${1:[${2:number}]}[SE]=${3:image}.${18:Y}.${19:X}
+        """
+    'VHCL:freightImageType':
+        'prefix': 'freightImageType'
+        'body': """
+            freightImageType[${1:0}]=${2:freightName}
+        """

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[dims=${1:length},${2:width},${3:views}]]></content>
-    <tabTrigger>dims</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>dims</description>
-</snippet>

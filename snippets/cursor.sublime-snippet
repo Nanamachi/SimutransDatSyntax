@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[cursor=${1:image}.${2:Y}.${3:X}]]></content>
-    <tabTrigger>cursor</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>cursor</description>
-</snippet>

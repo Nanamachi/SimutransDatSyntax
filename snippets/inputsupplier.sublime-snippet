@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[inputSupplier[${1:0}]=${2:string}]]></content>
-    <tabTrigger>inputSupplier</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>inputSupplier[…]</description>
-</snippet>

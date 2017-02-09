@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[diagonal[NE]=${1:image}.${2:Y}.${3:X}
-diagonal[NW]=${1:image}.${4:Y}.${5:X}
-diagonal[SE]=${1:image}.${6:Y}.${7:X}
-diagonal[SW]=${1:image}.${8:Y}.${9:X}]]></content>
-    <tabTrigger>diagonal</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>diagonal[…] way</description>
-</snippet>

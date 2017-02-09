@@ -1,0 +1,18 @@
+{
+  "name": "SimutransDatSyntax",
+  "version": "0.0.0",
+  "description": "Atom language support for Simutrans dat file",
+  "keywords": [
+      "Simutrans",
+      "add-on",
+      "dat"
+  ],
+  "repository": "https://github.com/Nanamachi/SimutransDatSyntax.git",
+  "bugs": "https://github.com/Nanamachi/SimutransDatSyntax/issues",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

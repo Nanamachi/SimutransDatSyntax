@@ -1,0 +1,111 @@
+'.text.plain':
+    'FACT FULL':
+        'prefix': 'obj=factory'
+        'body': """
+            obj=factory
+            name=${2:string}
+            copyright=${3:author}
+            inputGood[0]=${4:number}
+            inputSupplier[0]=${5:number}
+            inputCapacity[0]=${6:number}
+            inputFactor[0]=${7:number}
+            outputGood[0]=${8:number}
+            outputSupplier[0]=${9:number}
+            outputCapacity[0]=${10:number}
+            outputFactor[0]=${11:number}
+            productivity=${12:number}
+            range=${13:number}
+            pax_level=${14:number}
+            electricity_demand=${15:number}
+            passenger_demand=${16:number}
+            mail_demand=${17:number}
+            electricity_boost=${18:number}
+            passenger_boost=${19:number}
+            mail_boost=${20:number}
+            expand_probability=${21:number}
+            expand_minimum=${22:number}
+            expand_range=${23:number}
+            expand_times=${24:number}
+            fields=${25:string}
+            max_fields=${26:number}
+            min_fields=${27:number}
+            start_fields=${28:number}
+            production_per_field=${29:number}
+            storage_capacity=${30:number}
+            has_snow=${31:1}
+            spawn_weight=${32:number}
+            probability_to_spawn=${33:number}
+            location=${34:string}
+            distributionWeight=${35:number}
+            smoke=${36:string}
+            smokeTile=${37:number},${38:number}
+            smokeOffset=${39:number},${40:number}
+            smokeSpeed=${41:number}
+            climates=${42:stringarray}
+            mapColor=${43:number}
+            $0
+        """
+    'FACT:inputCapacity':
+        'prefix': 'inputCapacity'
+        'body': """
+            inputCapacity[${1:0}]=${2:number}
+        """
+    'FACT:inputFactor':
+        'prefix': 'inputFactor'
+        'body': """
+            inputFactor[${1:0}]=${2:number}
+        """
+    'FACT:inputGood':
+        'prefix': 'inputGood'
+        'body': """
+            inputGood[${1:0}]=${2:good}
+        """
+    'FACT:inputSupplier':
+        'prefix': 'inputSupplier'
+        'body': """
+            inputSupplier[${1:0}]=${2:string}
+        """
+    'FACT:production_per_field':
+        'prefix': 'production_per_field'
+        'body': """
+            production_per_field${1:[${2:0}]}=${3:freightName}
+        """
+    'FACT:smokeOffset':
+        'prefix': 'smokeoffset'
+        'body': """
+            smokeoffset=${1:X},${2:Y}
+        """
+    'FACT:smokeTile':
+        'prefix': 'smoketile'
+        'body': """
+            smoketile=${1:X},${2:Y}
+        """
+    'FACT:spawnWeight':
+        'prefix': 'spawn_weight'
+        'body': """
+            spawn_weight${1:[${2:0}]}=${3:freightName}
+        """
+    'FACT:storageCapacity':
+        'prefix': 'storage_capacity'
+        'body': """
+            storage_capacity${1:[${2:0}]}=${3:freightName}
+        """
+    'FACT:fields':
+        'prefix': 'fields'
+        'body': """
+            fields${1:[${2:0}]}=${3:freightName}
+        """
+    #
+    # fields
+    'FIEL FULL':
+        'prefix': 'obj=field'
+        'body': """
+            obj=field
+            name=${2:string}
+            copyright=${3:author}
+            image[0]=${1:image}.Y.X
+            image[1]=${1:image}.Y.X
+            image[2]=${1:image}.Y.X
+            image[3]=${1:image}.Y.X
+            image[4]=${1:image}.Y.X
+        """

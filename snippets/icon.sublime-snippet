@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[icon=> ${1:image}.${2:Y}.${3:X}]]></content>
-    <tabTrigger>icon</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>icon</description>
-</snippet>

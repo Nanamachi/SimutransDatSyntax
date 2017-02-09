@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[constraint[${1:Next}][${2:0}]=${3:vehicleInternalName}]]></content>
-    <tabTrigger>constraint</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>constraint[…][…]</description>
-</snippet>

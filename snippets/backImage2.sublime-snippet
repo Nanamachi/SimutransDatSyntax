@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[backImage2[S]${1:[${2:season}]}=${3:image}.${4:Y}.${5:X}
-backImage2[W]${1:[${2:season}]}=${3:image}.${6:Y}.${7:X}]]></content>
-    <tabTrigger>backImage2</tabTrigger>
-    <scope>text.simutrans_dat</scope>
-    <description>backImage2[…][…] bridge</description>
-</snippet>
